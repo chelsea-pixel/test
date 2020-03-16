@@ -1,0 +1,33 @@
+body{
+	/*background-image:url(shoe.jpg);*/
+	margin:0;
+	padding:0;
+	background-position:center;
+	background-size:cover;
+	height:150vh;
+}
+.navbar {
+    width: auto;
+	/*background-color:greenyellow;*/
+	overflow: auto;
+	margin-left:auto;
+}
+.navbar a {
+	margin:auto;
+	float:left;
+	font-size:25px;
+	text-decoration:none;
+	padding:28.5px;
+	/*color:white;*/
+}
+.logo img{
+	position:absolute;
+}
+#footer{
+	/*color:white;*/
+	margin-top:551;
+	/*background-color:greenyellow;*/
+	font-size:15Px;
+	padding:6px;
+	position:absolute;
+}

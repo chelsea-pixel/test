@@ -1,0 +1,54 @@
+<html>
+<link rel="stylesheet" href="login.css">
+<body>
+<div class="login-page">
+<div class="form" action="insert.php" method="POST">
+	<form class="Registration-form">
+	<input type="text" placeholder="firs name" name="username" required>
+	<input type="text" placeholder="second name" name="username" required>
+	<input type="text" placeholder="username" name="username" required>
+	<input type="password"  placeholder="Password" name="Password"  required>
+	<input type="text"  placeholder="Contact" name="Contact" required>
+	<input type="text"  placeholder="Email" name="email" required>
+	<input id="Date" type="date" placeholder="Date_of_birth" name="Date_of_birth" min="2019-9-8" required>
+	<label for="status">Country</label>
+	<select name="country">
+		<option value="Country"></option>
+		<option value="">Kenya</option>
+		<option value="">Uganda</option>
+		<option value="">Tanzania</option>
+		<option value="">Rwanda</option>
+		<option value="">Burundi</option>
+		<option value="">Congo</option>
+		<option value="">Nigeria</option>
+		<option value="">Algeria</option>
+		<option value="">South Africa</option>
+		<option value="">Somalia</option>
+		<option value="">Ethiopia</option>
+		<option value="">Sudan</option>
+		<option value="">Eritrea</option>
+		<option value="">Djibouti</option>
+		<option value="">Egypt</option>
+		<option value="">Other</option>
+	</select><br><br>
+	<button>Create</button>
+	<p class="message">Already Registered?<a href="#">Login</a><p>
+</form>
+	<form class="Login-form" action="login.php" method="post">
+	<input type="text" placeholder="Username" name="Username" required>
+	<input type="password" placeholder="Password" name="Password" required>
+	<button><a href="item.html">Login</a></button>
+	<p class="message">Not registered?<a href="#">Register</a></p>
+</form>
+</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js">
+</script>
+<script >$(".message a").click(function(){$("form").animate({height:"toggle", opacity:"toggle"},"slow")});
+</script>
+</div>
+</div>
+</body>
+</html>
